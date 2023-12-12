@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <h2>CWBurger</h2>
+        </div>
+        <svg>
+          <filter id="fire">
+            <feTurbulence
+              type="turbulence"
+              baseFrequency="0.1"
+              numOctaves="1"
+              result="turbulence"
+              seed="5"
+            />
+            <feDisplacementMap
+              in2="turbulence"
+              in="SourceGraphic"
+              scale="10"
+              xChannelSelector="R"
+              yChannelSelector="G"
+            />
+          </filter>
+        </svg>
+
+        <ul>
+          <a href=""><li>CW Lezzetleri</li></a>
+          <a href=""><li>Kampanyalar</li></a>
+          <a href=""><li>Restoranlar</li></a>
+          <a href=""><li>Ürünler</li> </a>
+        </ul>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/Yeni Proje (2).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/Yeni Proje (3).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/Yeni Proje (4).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+      <div class="products">
+        <div class="product" id="">
+          <a href="">
+            <img id="pr" src="./images/hamburger.png" alt="" />
+            <p>P0015</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/sosisli.png" alt="" />
+            <p>P0016</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/tavuk.png" alt="" />
+            <p>P0017</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/pizza.png" alt="" />
+            <p>P0018</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/noodle.png" alt="" />
+            <p>P0019</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/kofte.png" alt="" />
+            <p>P0020</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/kola.png" alt="" />
+            <p>P0021</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/mSuyu.png" alt="" />
+            <p>P0022</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/su.png" alt="" />
+            <p>P0023</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/salata.png" alt="" />
+            <p>P0024</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/kizartma.png" alt="" />
+            <p>P0025</p>
+          </a>
+        </div>
+        <div class="product">
+          <a href="">
+            <img src="./images/etKofte.png" alt="" />
+            <p>P0026</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="main">
+         <div class="masalar">
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa1</p>
+          </div>
+          <div class="masaSip">
+            
+          </div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa2</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa3</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa4</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa5</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa6</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <!-- <div class="masa1">
+          <div class="masaNo">
+            <p>Masa7</p>
+          </div>
+          <div class="masaSip"></div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div>
+        <div class="masa1">
+          <div class="masaNo">
+            <p>Masa8</p>
+          </div>
+          <div class="masaSip">
+         
+      
+          </div>
+          <div class="hesapKapat">
+            <a href=""> Hesabı Kapat</a>
+          </div>
+        </div> -->
+      </div>
+      <div class="siparis">
+        <div class="urunGiris">
+          <div class="giris kod">
+            <label for="">Ürün Kodu Girin:</label><br>
+            <input type="text" id="urunKodu" />
+          </div>
+          <div class="giris masa">
+            <label for="">Masa Numarası Girin:</label><br>
+            <input type="text" id="masaKodu" />
+          </div>
+          <div class="siparisOlustur" id="siparisButton">
+            <a href="">
+              <p>Sipariş Oluştur</p>
+              <img src="./images/motorcycle.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+     <footer>
+      <div>
+        Biz sizi arayalım
+      </div>
+      <div class="iletisim">
+        <input class="tel"type="tel" placeholder="Telefon numaranızı girin">
+        <button class="gonder">Gönder</button>
+      </div>
+  
+     </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

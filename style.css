@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff);
+  /* border: 1px solid red; */
+}
+
+:root {
+  --ff: "Macondo Swash Caps", cursive;
+  --lightGreen: #b2bebf;
+  --darkGreen: #889c9b;
+  --hardGreen: #486966;
+  --red: #c74141;
+  --cream: #e9dbdb;
+  --grey: #d9d9d9;
+  --dark: #362f2f;
+}
+
+nav {
+  background: black 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+}
+li {
+  font-size: 1.2rem;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  border-right: 2px solid rgba(160, 6, 6, 1);
+  border-bottom: 2px solid rgba(160, 6, 6, 1);
+}
+nav .brand {
+  margin-left: 2rem;
+  filter: url(#fire);
+}
+
+nav .brand h2 {
+  color: #ffeb3b;
+
+  font-weight: 600;
+  font-size: 4rem;
+  text-shadow: 0 0 10px #ff8c3b, 0 0 40px #ff8c3b, 0 0 800px #ff8c3b,
+    0 0 120px #ff8c3b, 0 0 240px #ff8c3b;
+}
+
+.products {
+  background-image: radial-gradient(
+    circle farthest-corner at 17.1% 22.8%,
+    rgba(226, 24, 24, 1) 0%,
+    rgba(160, 6, 6, 1) 90%
+  );
+  background-color: var(--red);
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.product {
+  /* background-color: var(--dark); */
+  background-image: radial-gradient(circle, #434343 0%, black 100%);
+  width: 150px;
+  /* height:15vh; */
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.product a {
+  text-decoration: none;
+}
+.product img {
+  width: 80%;
+  height: 80px;
+}
+.product p {
+  background-color: var(--cream);
+  color: black;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.main {
+  display: flex;
+}
+
+.masalar {
+  background-image: radial-gradient(at bottom right, #434343 0%, black 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.masa1 {
+  padding: 1rem;
+  margin: 0.5rem;
+  /* background-color: var(--hardGreen); */
+  /* border:1px solid gray;
+} */
+}
+
+.masaSip {
+  width: 300px;
+  height: 200px;
+  background-color: gray;
+
+  /* margin-top: -60px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.SirarisEdilmisUrun {
+    display: flex;
+   
+    align-items:start;
+    
+    padding: 0.2rem 0.8rem;
+    justify-content: space-between;
+    
+    /* gap: 0.8rem; */
+  }
+
+
+.masaNo {
+  /* text-align: center;  */
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  width: inherit;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 10px rgba(160, 6, 6, 1);
+
+  /* border-radius: 30px */
+}
+.masaSip a {
+  color: black;
+}
+
+.hesapKapat {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  position: relative;
+  z-index: 1;
+}
+.hesapKapat:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hesapKapat:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  content: "";
+  background-color: rgba(160, 6, 6, 1);
+}
+
+.hesapKapat:hover:before {
+  transition: 0.5s all ease;
+
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.hesapKapat a {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.siparis {
+  max-width: 20%;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.urunGiris {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.siparisOlustur {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 75%;
+  padding: 1rem;
+}
+.siparisOlustur a {
+  color: white;
+  display: flex;
+
+  text-decoration: none;
+}
+
+.siparisOlustur a img {
+  width: 75%;
+}
+
+label {
+  padding: 0.2rem;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  display: flex;
+  padding:1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer div{
+  padding:0.2rem;
+}
+.iletisim{
+  display: flex;
+  align-items: center;
+}
+
+.gonder{
+  
+  padding:0.2rem 2rem;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  background-color:black;
+  color:white;
+  border:1px solid rgba(160, 6, 6, 1);
+  position: relative;
+  z-index: 1;
+}
+
+.gonder:hover {
+  
+  color: white;
+  cursor: pointer;
+}
+
+.gonder:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  content: "";
+  background-color: rgba(160, 6, 6, 1);
+}
+
+.gonder:hover:before {
+  transition: 0.5s all ease;
+
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+} 
+
+.tel{
+  width: 100%;
+  padding: 0.5rem;
+  /* line-height:2.4rem; */
+}
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+  color:yellow;
+}

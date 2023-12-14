@@ -264,6 +264,10 @@ nav .brand h2 {
   width: 75%;
 }
 
+.uyari-urunKodu,.uyari-masaKodu,.uyari-siparisOlustur{
+  color: rgba(160, 6, 6, 1)
+}
+
 label {
   padding: 0.2rem;
 }

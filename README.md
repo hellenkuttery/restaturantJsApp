@@ -4,7 +4,7 @@
 This is a small application built with React to demonstrate handling keyboard and mouse events. The application simulates a moving object that responds to both arrow key presses and mouse clicks.
 
 # Image
-![Car](src/asset/car.gif)
+![restaurant](Untitled%20Video%20September%2015%2C%202024%207_53%20PM.gif)
 
 ## Website Link
 [Restauran App](https://hellenkuttery.github.io/restaturantJsApp/)
